@@ -27,10 +27,25 @@
 
 // php operator
 // sum-1 system
-$number = 30;
-$num=$number+  10;
+// $number = 30;
+// $num=$number+  10;
+// echo $num;
+// // sun-2 system
+// $number =30;
+// $number += 10;
+// echo $number;
+
+
+// multiple
+$number =6;
+$num = $number*3; 
 echo $num;
-// sun-2 system
-$number =30;
-$number += 10;
+// multiple method-2
+$number1 =6;
+$number2 = 3;
+$num = $number1*$number2; 
+echo $num;
+// method -3
+$number =6;
+$number *=3;
 echo $number;
