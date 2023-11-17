@@ -24,3 +24,13 @@
 // echo 'my name is '. $var;
 // $var = "polash";
 // echo 'my name is '." ". $var;
+
+// php operator
+// sum-1 system
+$number = 30;
+$num=$number+  10;
+echo $num;
+// sun-2 system
+$number =30;
+$number += 10;
+echo $number;
