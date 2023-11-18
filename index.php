@@ -30,22 +30,65 @@
 // $number = 30;
 // $num=$number+  10;
 // echo $num;
-// // sun-2 system
+// sun-2 system
 // $number =30;
 // $number += 10;
 // echo $number;
 
 
 // multiple
-$number =6;
-$num = $number*3; 
-echo $num;
+// $number =6;
+// $num = $number*3; 
+// echo $num;
 // multiple method-2
-$number1 =6;
-$number2 = 3;
-$num = $number1*$number2; 
-echo $num;
+// $number1 =6;
+// $number2 = 3;
+// $num = $number1*$number2; 
+// echo $num;
 // method -3
-$number =6;
-$number *=3;
-echo $number;
+// $number =6;
+// $number *=3;
+// echo $number;
+// modulas%
+// $var = 17;
+// $var %=3;
+// echo $var;
+
+
+// php increment and decrement 
+// type of increment and decrement
+// 1.pre
+// 2.post
+// example
+// $var =9;
+// $vars = ($var++);
+// $vars= ($var);
+// echo $vars;
+// $num =5;
+// var_dump(++$num);
+//! var_dump($num);
+
+
+// I will now run a loop
+// $set='a1';
+// for($n=0;$n<26;$n++) {
+//     echo ++$set .PHP_EOL;
+// }
+
+// !pie er man ber korar upay;
+// echo(pi());
+
+
+// !php max;
+// echo(max(12,3,6,8,99,77,52,22)) .PHP_EOL;
+// !php min
+// echo (min(1,2,3,5,67,8,232,4,4,2));
+
+
+// !negetive to positive
+// echo (abs(-2233.6346));
+
+// *random php
+// echo rand();
+
+
