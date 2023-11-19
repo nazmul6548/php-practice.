@@ -119,10 +119,16 @@
 
 
 // * printf
-$firstname = "nazmul";
-$lastName = "jewel";
-printf("my name is %s %s",$firstname,$lastName);
+// $firstname = "nazmul";
+// $lastName = "jewel";
+// printf("my name is %s %s",$firstname,$lastName);
 // * another method
 // $firstname = "nazmul";
 // $lastName = "jewel";
 // printf('my name is %2$s %1$s', $firstname,$lastName);
+
+// * sprintf
+$name1= "nazmul";
+$name2="jewel";
+$result =sprintf("my name is %s %s ",$name1,$name2);
+echo $result;
