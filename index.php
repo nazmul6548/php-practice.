@@ -91,4 +91,38 @@
 // *random php
 // echo rand();
 
+// 
+// *
+// $d =100;
+// $r =23;
+// if ($d==100 && $r ==23) {
+//     echo "jewel";
+// }
+// *
+// $h = 121;
+// if ($h !==121) {
+//     echo "jewel";
+// }else{
+//     echo "121 bade baki sob num de";
+// }
 
+// concat php
+// * method 1
+// $tax = "hello";
+// $taxx = "world";
+// echo $tax." ".$taxx;
+// * method 2
+// $tac = "hello";
+// $tacc = "world";
+// $tac .=  " ".$tacc;
+// echo $tac; 
+
+
+// * printf
+$firstname = "nazmul";
+$lastName = "jewel";
+printf("my name is %s %s",$firstname,$lastName);
+// * another method
+// $firstname = "nazmul";
+// $lastName = "jewel";
+// printf('my name is %2$s %1$s', $firstname,$lastName);
