@@ -46,7 +46,7 @@ const totalPrice = shoppingCart.reduce((previousValue , productName) => {
 
 console.log(totalPrice);
 
-
+// *deastructuring object.
 const user = {
     userName:"nazmul islam jewel",
     location:"chittagong",
@@ -55,3 +55,25 @@ const user = {
 }
 const {location:bari,userName:nam,age:boyos,occupation:pesha}=user;
 console.log(bari,boyos,pesha,nam);
+
+
+// *spread operator
+const nums =[1,1,2,2,4,5,6,7];
+const results =(Math.max(...nums));
+console.log(results);
+
+const num =[1,1,2,2,4,5,6,7];
+const resultss =(Math.min(...num));
+console.log(resultss);
+
+const arr = [1,2,34,5,5,6,7,8,9];
+const arr1n = [9,6,7,8,4,2];
+const total =  [...arr,...arr1n];
+console.log(total);
+
+// *rest operator
+function addtoCard (...number) {
+    return number;
+}
+const res = addtoCard(6,3,5,7,8,9,44);
+console.log(res);
