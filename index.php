@@ -128,7 +128,46 @@
 // printf('my name is %2$s %1$s', $firstname,$lastName);
 
 // * sprintf
-$name1= "nazmul";
-$name2="jewel";
-$result =sprintf("my name is %s %s ",$name1,$name2);
-echo $result;
+// $name1= "nazmul";
+// $name2="jewel";
+// $result =sprintf("my name is %s %s ",$name1,$name2);
+// echo $result;
+
+// * 
+// if (true) {
+//     echo "it is true";
+//     # code...
+// }else {
+//     echo "it is false";
+// }
+
+// $a= 12;
+// $b=6;
+// if ($a < $b) {
+//     echo "value is larger";
+// }else{
+//     echo" value is smaller";
+// };
+
+
+// $a= 12;
+// $b=10;
+// if ($a < $b) {
+//     echo "value is larger";
+// }else if($a===$b){
+//     echo" value is equal";
+// }elseif ($a != $b){
+//     echo "not equal";
+// }elseif ($a > $b){
+//     echo "value is smaleer";
+// }
+
+
+$a=7;
+if ($a===5) {
+    echo "5 is equal a";
+}else if ($a===6) {
+    echo "6 is largest of 5";
+}else {
+    echo "invalid value";
+}
