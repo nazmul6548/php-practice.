@@ -45,3 +45,13 @@ const totalPrice = shoppingCart.reduce((previousValue , productName) => {
 },0);
 
 console.log(totalPrice);
+
+
+const user = {
+    userName:"nazmul islam jewel",
+    location:"chittagong",
+    age:25,
+    occupation:"web devoloper",
+}
+const {location:bari,userName:nam,age:boyos,occupation:pesha}=user;
+console.log(bari,boyos,pesha,nam);
