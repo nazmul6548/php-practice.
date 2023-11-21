@@ -58,22 +58,39 @@ console.log(bari,boyos,pesha,nam);
 
 
 // *spread operator
-const nums =[1,1,2,2,4,5,6,7];
-const results =(Math.max(...nums));
-console.log(results);
+// const nums =[1,1,2,2,4,5,6,7];
+// const results =(Math.max(...nums));
+// console.log(results);
 
-const num =[1,1,2,2,4,5,6,7];
-const resultss =(Math.min(...num));
-console.log(resultss);
+// const num =[1,1,2,2,4,5,6,7];
+// const resultss =(Math.min(...num));
+// console.log(resultss);
 
-const arr = [1,2,34,5,5,6,7,8,9];
-const arr1n = [9,6,7,8,4,2];
-const total =  [...arr,...arr1n];
-console.log(total);
+// const arr = [1,2,34,5,5,6,7,8,9];
+// const arr1n = [9,6,7,8,4,2];
+// const total =  [...arr,...arr1n];
+// console.log(total);
 
 // *rest operator
-function addtoCard (...number) {
-    return number;
-}
-const res = addtoCard(6,3,5,7,8,9,44);
-console.log(res);
+// function addtoCard (...number) {
+//     return number;
+// }
+// const res = addtoCard(6,3,5,7,8,9,44);
+// console.log(res);
+
+// array itaration
+// *map()
+// const myArr = [1,2,3,4,[1,9,]];
+// const resultsss= myArr.flatMap((value) => {
+// return value;
+
+// });
+// console.log(resultsss);
+
+// map
+const myArrs = [1,2,3,4];
+const re= myArrs.map((value) => {
+return value *2;
+
+});
+console.log(re);
