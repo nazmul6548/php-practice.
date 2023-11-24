@@ -15,9 +15,9 @@ const number =[1,2,4,5,6,7];
 
 const result = number.reduce(function(initialValue,currentValue) {
     return initialValue+currentValue;
-},0);
+},8);
 
-console.log(result);
+// console.log(result);
 
 
 
@@ -40,21 +40,21 @@ const shoppingCart = [
     },
 ];
 
-const totalPrice = shoppingCart.reduce((previousValue , productName) => {
-    return previousValue + productName.price;
-},0);
+// const totalPrice = shoppingCart.reduce((previousValue , productName) => {
+//     return previousValue + productName.price;
+// },0);
 
-console.log(totalPrice);
+// console.log(totalPrice);
 
 // *deastructuring object.
-const user = {
-    userName:"nazmul islam jewel",
-    location:"chittagong",
-    age:25,
-    occupation:"web devoloper",
-}
-const {location:bari,userName:nam,age:boyos,occupation:pesha}=user;
-console.log(bari,boyos,pesha,nam);
+// const user = {
+//     userName:"nazmul islam jewel",
+//     location:"chittagong",
+//     age:25,
+//     occupation:"web devoloper",
+// }
+// const {location:bari,userName:nam,age:boyos,occupation:pesha}=user;
+// console.log(bari,boyos,pesha,nam);
 
 
 // *spread operator
@@ -88,9 +88,20 @@ console.log(bari,boyos,pesha,nam);
 // console.log(resultsss);
 
 // map
-const myArrs = [1,2,3,4];
-const re= myArrs.map((value) => {
-return value *2;
+// const myArrs = [1,2,3,4];
+// const re= myArrs.map((value) => value*2
 
-});
-console.log(re);
+// );
+// console.log(re);
+
+// foreach
+const num=[1,2,3,4,5,6];
+const method = num.forEach((value) => {
+    // console.log(value);
+} );
+const text ='nazmul islam jewel';
+const  res =text.indexOf("m");
+console.log(res);
+const array = [1,2,3,4,5,6,7,8,9,10,11,12];
+const even = (element) => element % 2 === 0;
+console.log(array.some(even));
