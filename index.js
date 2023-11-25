@@ -88,11 +88,10 @@ const shoppingCart = [
 // console.log(resultsss);
 
 // map
-// const myArrs = [1,2,3,4];
-// const re= myArrs.map((value) => value*2
+const myArrs = [1,2,3,4];
+const re= myArrs.map((values) => values * 2);
+console.log(re);
 
-// );
-// console.log(re);
 
 // foreach
 const num=[1,2,3,4,5,6];
@@ -115,4 +114,38 @@ const evens = Marray.every((element) => element <= 12);
 // *includes
 const names = [1,2,3,4,5,6,7,8];
 const methods =names.includes(9);
-console.log(methods);
+// console.log(methods);
+
+
+const nums = [11,1,2,3,4,5,1,2,11];
+const mynums = nums.filter((nu) => nu <3);
+// console.log(mynums);
+
+const person =[
+    {
+        name:"sumit saha",
+        age:30,
+        gender:"male",
+        profession:"programmer",
+    },
+    {
+        name:"ali hossain",
+        age:35,
+        gender:"male",
+        profession:"programmer",
+    },
+    {
+        names:"s@ifur",
+        age:40,
+        gender:"male",
+        profession:"english teacher",
+    },
+    {
+        name:"imam",
+        age:30,
+        gender:"male",
+        profession:"farmer",
+    }
+]
+const singlePerson = person.filter((value) => value.age===30 );
+console.log(singlePerson);
