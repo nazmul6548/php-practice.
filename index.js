@@ -101,7 +101,18 @@ const method = num.forEach((value) => {
 } );
 const text ='nazmul islam jewel';
 const  res =text.indexOf("m");
-console.log(res);
+// console.log(res);
 const array = [1,2,3,4,5,6,7,8,9,10,11,12];
-const even = (element) => element % 2 === 0;
-console.log(array.some(even));
+const even = (element) => element > 11;
+// console.log(array.some(even));
+
+
+// *some()
+const Marray = [1,2,3,4,5,6,7,8,9,10,11,12];
+const evens = Marray.every((element) => element <= 12);
+// console.log(evens);
+
+// *includes
+const names = [1,2,3,4,5,6,7,8];
+const methods =names.includes(9);
+console.log(methods);
