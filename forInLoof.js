@@ -13,3 +13,14 @@ for (const result in myName) {
 for (const result in myAdress) {
    console.log(myAdress[result]);
     }
+
+
+let myNumber =[1,2 ,3,4,5,6,7,8,9];
+for (const result in myNumber) {
+   console.log(result); /*return index*/
+};
+
+let myNumbers =[1,2 ,3,4,5,6,7,8,9];
+for (const result in myNumbers) {
+   console.log(myNumbers[result]); 
+};
